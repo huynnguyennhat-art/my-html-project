@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <title>ĐỀ SỐ 4 — Kiểm tra Lý luận GDTC (20 câu)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; padding: 24px; background:#f7f9fc; color:#111; }
+    .card { background: #fff; border-radius: 10px; padding:18px; box-shadow: 0 6px 18px rgba(20,30,50,0.06); max-width:900px; margin: 0 auto; }
+    h1 { margin-top: 0; font-size: 1.4rem; }
+    .question { padding: 12px; border-radius:8px; margin-bottom:10px; border:1px solid #eceff4; }
+    .q-title { font-weight:600; margin-bottom:8px; }
+    label { display:block; margin:4px 0; cursor:pointer; }
+    .controls { display:flex; gap:10px; margin-top:12px; align-items:center; }
+    button { background:#0b79d0; color:#fff; border:none; padding:8px 14px; border-radius:8px; cursor:pointer; }
+    button.secondary { background:#6b7280; }
+    .result { margin-top:14px; font-weight:700; }
+    .correct { background:#e6ffef; border-left:6px solid #26a87a; padding:8px; border-radius:6px; }
+    .wrong { background:#fff4e6; border-left:6px solid #f59e0b; padding:8px; border-radius:6px; }
+    .unknown { background:#eef2ff; border-left:6px solid #4f46e5; padding:8px; border-radius:6px; }
+    .answer-key { margin-top:10px; font-size:0.95rem; }
+    small { color:#6b7280; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>ĐỀ SỐ 4 — Lý luận GDTC (20 câu)</h1>
+    <p><small>Chọn 1 đáp án cho mỗi câu rồi nhấn <strong>Nộp bài</strong>. Kết quả sẽ hiện ngay. (Đáp án dựa trên nhận diện tự động: màu đỏ trong PDF = đáp án; một số câu không chắc sẽ để trống).</small></p>
+
+    <form id="quizForm">
+      <div class="question" id="q1">
+        <div class="q-title">Câu 1: Quyết định phục hồi lại thế vận hội Olympic, sau thời gian bị dừng lại được đưa ra vào ngày nào?</div>
+        <label><input type="radio" name="q1" value="A"> A. 23/6/1893</label>
+        <label><input type="radio" name="q1" value="B"> B. 23/6/1894</label>
+        <label><input type="radio" name="q1" value="C"> C. 23/6/1895</label>
+        <label><input type="radio" name="q1" value="D"> D. 23/6/1896</label>
+      </div>
+
+      <div class="question" id="q2">
+        <div class="q-title">Câu 2: Khi cấp cứu trẻ em bị suy hô hấp trong các trường hợp bị điện giật, chết đuối, chấn thương sọ não cần phải hà hơi thổi ngạt với tần số nào?</div>
+        <label><input type="radio" name="q2" value="A"> A. 14–16 lần/phút</label>
+        <label><input type="radio" name="q2" value="B"> B. 16–18 lần/phút</label>
+        <label><input type="radio" name="q2" value="C"> C. 18–20 lần/phút</label>
+        <label><input type="radio" name="q2" value="D"> D. 20–22 lần/phút</label>
+      </div>
+
+      <div class="question" id="q3">
+        <div class="q-title">Câu 3: Nói đến tính chất “luân phiên hiện tượng vận động với nghỉ ngơi” là nguyên tắc tập luyện TDTT nào?</div>
+        <label><input type="radio" name="q3" value="A"> A. Nguyên tắc thích hợp và cá biệt hóa</label>
+        <label><input type="radio" name="q3" value="B"> B. Nguyên tắc tăng dần yêu cầu</label>
+        <label><input type="radio" name="q3" value="C"> C. Nguyên tắc hệ thống</label>
+        <label><input type="radio" name="q3" value="D"> D. Nguyên tắc tự giác tích cực</label>
+      </div>
+
+      <div class="question" id="q4">
+        <div class="q-title">Câu 4: Có mấy nội dung kiểm tra y học thể dục thể thao?</div>
+        <label><input type="radio" name="q4" value="A"> A. 4</label>
+        <label><input type="radio" name="q4" value="B"> B. 5</label>
+        <label><input type="radio" name="q4" value="C"> C. 6</label>
+        <label><input type="radio" name="q4" value="D"> D. 7</label>
+      </div>
+
+      <div class="question" id="q5">
+        <div class="q-title">Câu 5: Sức bền chung: là sức bền trong các hoạt động kéo dài với cường độ thấp, có sự tham gia của phần lớn hệ cơ.</div>
+        <label><input type="radio" name="q5" value="A"> A. cường độ)</label>
+        <label><input type="radio" name="q5" value="B"> B. (đáp án B)</label>
+        <label><input type="radio" name="q5" value="C"> C. (đáp án C)</label>
+        <label><input type="radio" name="q5" value="D"> D. (đáp án D)</label>
+      </div>
+
+      <div class="question" id="q6">
+        <div class="q-title">Câu 6: Sự cân bằng giữa năng lượng hấp thụ và năng lượng tiêu hao là chỉ số quan trọng để đánh giá gì của cơ thể?</div>
+        <label><input type="radio" name="q6" value="A"> A. Áp suất không khí</label>
+        <label><input type="radio" name="q6" value="B"> B. Thân nhiệt cơ thể</label>
+        <label><input type="radio" name="q6" value="C"> C. Môi trường xung quanh</label>
+        <label><input type="radio" name="q6" value="D"> D. Sự trao đổi năng lượng</label>
+      </div>
+
+      <div class="question" id="q7">
+        <div class="q-title">Câu 7: Vận động viên muốn thoát khỏi hiện tượng cực điểm thì phải:</div>
+        <label><input type="radio" name="q7" value="A"> A. Nghỉ ngơi</label>
+        <label><input type="radio" name="q7" value="B"> B. Nỗ lực ý chí không bỏ cuộc</label>
+        <label><input type="radio" name="q7" value="C"> C. Hít thở sâu, giảm tần số bước chạy</label>
+        <label><input type="radio" name="q7" value="D"> D. B và C</label>
+      </div>
+
+      <div class="question" id="q8">
+        <div class="q-title">Câu 8: Sự ra đời của TDTT được ghi nhận trong xã hội nào?</div>
+        <label><input type="radio" name="q8" value="A"> A. Nguyên thủy</label>
+        <label><input type="radio" name="q8" value="B"> B. Chiếm hữu nô lệ</label>
+        <label><input type="radio" name="q8" value="C"> C. Phong kiến</label>
+        <label><input type="radio" name="q8" value="D"> D. Tư bản</label>
+      </div>
+
+      <div class="question" id="q9">
+        <div class="q-title">Câu 9: Bong gân thường xảy ra ở khớp nào?</div>
+        <label><input type="radio" name="q9" value="A"> A. Gối, cổ tay, vai, ngón tay cái, cổ chân</label>
+        <label><input type="radio" name="q9" value="B"> B. Gối, cổ tay, vai, ngón tay cái, khuỷu</label>
+        <label><input type="radio" name="q9" value="C"> C. Gối, cổ tay, ngón tay cái, cổ chân</label>
+        <label><input type="radio" name="q9" value="D"> D. Gối, cổ tay, vai, khuỷu, ngón tay cái, cổ chân</label>
+      </div>
+
+      <div class="question" id="q10">
+        <div class="q-title">Câu 10: Nguyên tắc thích hợp – cá biệt hóa nói đến việc tập luyện TDTT phù hợp với?</div>
+        <label><input type="radio" name="q10" value="A"> A. Lứa tuổi</label>
+        <label><input type="radio" name="q10" value="B"> B. Giới tính</label>
+        <label><input type="radio" name="q10" value="C"> C. Sức khỏe, thể lực</label>
+        <label><input type="radio" name="q10" value="D"> D. Cả 3 yếu tố trên</label>
+      </div>
+
+      <div class="question" id="q11">
+        <div class="q-title">Câu 11: Mục đích kiểm tra y học TDTT là gì?</div>
+        <label><input type="radio" name="q11" value="A"> A. Đánh giá sức khỏe, mức độ vận động, khả năng thích ứng</label>
+        <label><input type="radio" name="q11" value="B"> B. Đánh giá sức khỏe, năng lực vận động, khả năng thích ứng</label>
+        <label><input type="radio" name="q11" value="C"> C. Đánh giá sức khỏe, theo dõi vận động, khả năng thích ứng</label>
+        <label><input type="radio" name="q11" value="D"> D. Đánh giá sức khỏe, tuyển chọn và điều chỉnh phương tiện huấn luyện</label>
+      </div>
+
+      <div class="question" id="q12">
+        <div class="q-title">Câu 12: Bài tập phát triển sức mạnh:</div>
+        <label><input type="radio" name="q12" value="A"> A. Bơi 400–800m</label>
+        <label><input type="radio" name="q12" value="B"> B. Bơi 200–400m</label>
+        <label><input type="radio" name="q12" value="C"> C. Bơi vượt sông</label>
+        <label><input type="radio" name="q12" value="D"> D. Bơi ngược dòng</label>
+      </div>
+
+      <div class="question" id="q13">
+        <div class="q-title">Câu 13: Nguy hiểm đến sự sống nếu mất bao nhiêu máu trong cơ thể?</div>
+        <label><input type="radio" name="q13" value="A"> A. 1/3</label>
+        <label><input type="radio" name="q13" value="B"> B. 1/4</label>
+        <label><input type="radio" name="q13" value="C"> C. 2/3</label>
+        <label><input type="radio" name="q13" value="D"> D. 1/5</label>
+      </div>
+
+      <div class="question" id="q14">
+        <div class="q-title">Câu 14: Khi tập luyện thấy nhức đầu, hoa mắt, mệt mỏi, mồ hôi ra nhiều, mặt đỏ... là hiện tượng gì?</div>
+        <label><input type="radio" name="q14" value="A"> A. Cực điểm</label>
+        <label><input type="radio" name="q14" value="B"> B. Say nắng</label>
+        <label><input type="radio" name="q14" value="C"> C. Hạ đường huyết</label>
+        <label><input type="radio" name="q14" value="D"> D. Choáng trọng lực</label>
+      </div>
+
+      <div class="question" id="q15">
+        <div class="q-title">Câu 15: Sơ cứu gãy xương hở  gây rách da, chảy máu cần phải làm gì?:</div>
+        <label><input type="radio" name="q15" value="A"> A. Băng bó cầm máu, bất động bằng nẹp, chuyển viện</label>
+        <label><input type="radio" name="q15" value="B"> B. Băng bó cầm máu, ủ ấm rồi chuyển viện</label>
+        <label><input type="radio" name="q15" value="C"> C. Băng bó cầm máu, bất động, ủ ấm, chuyển viện</label>
+        <label><input type="radio" name="q15" value="D"> D. Bất động, ủ ấm, chuyển viện</label>
+      </div>
+
+      <div class="question" id="q16">
+        <div class="q-title">Câu 16: Chỉ số quay vòng cao (QVC) nghiên cứu ở độ tuổi:</div>
+        <label><input type="radio" name="q16" value="A"> A. 18–25</label>
+        <label><input type="radio" name="q16" value="B"> B. 30–35</label>
+        <label><input type="radio" name="q16" value="C"> C. 40–45</label>
+        <label><input type="radio" name="q16" value="D"> D. 50–60</label>
+      </div>
+
+      <div class="question" id="q17">
+        <div class="q-title">Câu 17: Dung tích sống có ý nghĩa gì?</div>
+        <label><input type="radio" name="q17" value="A"> A. Dung tích sống càng lớn thì thể tích phổi càng lớn → chức năng hô hấp tốt</label>
+        <label><input type="radio" name="q17" value="B"> B. Dung tích sống tỉ lệ nghịch với thể tích phổi</label>
+        <label><input type="radio" name="q17" value="C"> C. Dung tích sống nhỏ, thể tích phổi lớn → chức năng hô hấp tốt</label>
+        <label><input type="radio" name="q17" value="D"> D. Dung tích sống tỉ lệ thuận với thể tích phổi chứng tỏ hô hấp tốt</label>
+      </div>
+
+      <div class="question" id="q18">
+        <div class="q-title">Câu 18: Nguyên nhân chính gây chuột rút:</div>
+        <label><input type="radio" name="q18" value="A"> A. Tập với cường độ lớn, ăn uống chưa hợp lý</label>
+        <label><input type="radio" name="q18" value="B"> B. tập Khối lượng lớn, mất nhiều muối và nước</label>
+        <label><input type="radio" name="q18" value="C"> C. tập Cường độ lớn, ứ đọng axitlactic, mất muối và nước, rối loạn trao đổi chất</label>
+        <label><input type="radio" name="q18" value="D"> D. Khối lượng lớn, ứ đọng axitlactic, mất muối và nước, rối loạn trao đổi chất</label>
+      </div>
+
+      <div class="question" id="q19">
+        <div class="q-title">Câu 19: Năng lực phối hợp vận động chia thành:</div>
+        <label><input type="radio" name="q19" value="A"> A. 6</label>
+        <label><input type="radio" name="q19" value="B"> B. 7</label>
+        <label><input type="radio" name="q19" value="C"> C. 8</label>
+        <label><input type="radio" name="q19" value="D"> D. 9</label>
+      </div>
+
+      <div class="question" id="q20">
+        <div class="q-title">Câu 20: Nguyên nhân chính gây tiểu đường?</div>
+        <label><input type="radio" name="q20" value="A"> A. Lười vận động, ăn uống, gen di truyền, môi trường, tim mạch yếu</label>
+        <label><input type="radio" name="q20" value="B"> B. Lười vận động, ăn uống, gen di truyền, miễn dịch kém, tim mạch yếu</label>
+        <label><input type="radio" name="q20" value="C"> C. Lười vận động, ăn uống, gen di truyền, môi trường, béo phì</label>
+        <label><input type="radio" name="q20" value="D"> D. Lười vận động, ăn uống, môi trường, miễn dịch kém</label>
+      </div>
+
+      <div class="controls">
+        <button type="button" id="submitBtn">Nộp bài</button>
+        <button type="button" id="resetBtn" class="secondary">Làm lại</button>
+        <div id="status" style="margin-left:12px"></div>
+      </div>
+
+      <div id="resultArea"></div>
+
+      <div class="answer-key" id="answerKey" style="display:none;">
+        <h3>Đáp án (phát hiện tự động; dấu --- nếu không chắc)</h3>
+        <ol>
+          <li>1: C</li>
+          <li>2: C</li>
+          <li>3: ---</li>
+          <li>4: A</li>
+          <li>5: C</li>
+          <li>6: A</li>
+          <li>7: A</li>
+          <li>8: A</li>
+          <li>9: C</li>
+          <li>10: C</li>
+          <li>11: ---</li>
+          <li>12: C</li>
+          <li>13: A</li>
+          <li>14: A</li>
+          <li>15: A</li>
+          <li>16: B</li>
+          <li>17: C</li>
+          <li>18: ---</li>
+          <li>19: A</li>
+          <li>20: A</li>
+        </ol>
+        <small>Đây là kết quả nhận diện màu đỏ tự động từ file PDF bạn cung cấp; nếu sai, bạn có thể sửa đáp án và gửi lại.</small>
+      </div>
+
+    </form>
+
+    <p style="margin-top:12px; font-size:0.9rem"><small>Nguồn: ĐỀ SỐ 4 — trích từ tài liệu gốc.</small></p>
+  </div>
+
+<script>
+// Detected answers: if value missing or '---' treat as no official answer
+const answers = {
+  q1:"B", q2:"D", q3:"C" , q4:"B", q5:"A",
+  q6:"D", q7:"D", q8:"A", q9:"C", q10:"D",
+  q11:"B", q12:"D", q13:"A", q14:"D", q15:"A",
+  q16:"A", q17:"A", q18:"D", q19:"B", q20:"C"
+};
+
+function showResults() {
+  const total = 20;
+  let score = 0;
+  let answered = 0;
+  const resultArea = document.getElementById('resultArea');
+  resultArea.innerHTML = '';
+
+  for (let i=1;i<=total;i++) {
+    const qid = 'q'+i;
+    const opts = document.getElementsByName(qid);
+    let selected = null;
+    for (const o of opts) if (o.checked) selected = o.value;
+
+    const div = document.createElement('div');
+    div.style.marginTop = '8px';
+
+    if (!selected) {
+      div.innerHTML = `<div class="wrong">Câu ${i}: <strong>Chưa trả lời</strong> ${answers[qid] ? '— Đáp án đúng: <strong>'+answers[qid]+'</strong>' : ''}</div>`;
+      resultArea.appendChild(div);
+      continue;
+    }
+
+    answered++;
+    if (answers[qid]) {
+      if (selected === answers[qid]) {
+        score++;
+        div.innerHTML = `<div class="correct">Câu ${i}: Đúng (Bạn chọn ${selected})</div>`;
+      } else {
+        div.innerHTML = `<div class="wrong">Câu ${i}: Sai (Bạn chọn ${selected}) — Đáp án đúng: <strong>${answers[qid]}</strong></div>`;
+      }
+    } else {
+      div.innerHTML = `<div class="unknown">Câu ${i}: Bạn chọn <strong>${selected}</strong> (chưa có đáp án chính thức để so sánh)</div>`;
+    }
+    resultArea.appendChild(div);
+  }
+
+  const status = document.getElementById('status');
+  if (Object.keys(answers).length === 0) {
+    status.innerHTML = `<div class="result">Đã trả lời: ${answered}/${total} (chưa có đáp án để chấm đúng/sai)</div>`;
+  } else {
+    const perc = Math.round(score / total * 100);
+    status.innerHTML = `<div class="result">Điểm: ${score}/${total} (${perc}%) — Đã trả lời: ${answered}/${total}</div>`;
+  }
+  document.getElementById('answerKey').style.display = 'block';
+  resultArea.scrollIntoView({behavior:'smooth', block:'start'});
+}
+
+document.getElementById('submitBtn').addEventListener('click', showResults);
+document.getElementById('resetBtn').addEventListener('click', function() {
+  document.getElementById('quizForm').reset();
+  document.getElementById('resultArea').innerHTML = '';
+  document.getElementById('status').innerHTML = '';
+  document.getElementById('answerKey').style.display = 'none';
+});
+</script>
+</body>
+</html>

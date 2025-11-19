@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <title>ĐỀ SỐ 1 — Kiểm tra Lý luận GDTC (20 câu)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; padding: 24px; background:#f7f9fc; color:#111; }
+    .card { background: #fff; border-radius: 10px; padding:18px; box-shadow: 0 6px 18px rgba(20,30,50,0.06); max-width:900px; margin: 0 auto; }
+    h1 { margin-top: 0; font-size: 1.4rem; }
+    .question { padding: 12px; border-radius:8px; margin-bottom:10px; border:1px solid #eceff4; }
+    .q-title { font-weight:600; margin-bottom:8px; }
+    label { display:block; margin:4px 0; cursor:pointer; }
+    .controls { display:flex; gap:10px; margin-top:12px; align-items:center; }
+    button { background:#0b79d0; color:#fff; border:none; padding:8px 14px; border-radius:8px; cursor:pointer; }
+    button.secondary { background:#6b7280; }
+    .result { margin-top:14px; font-weight:700; }
+    .correct { background: #e6ffef; border-left: 6px solid #26a87a; padding:8px; border-radius:6px; }
+    .wrong { background: #fff4e6; border-left: 6px solid #f59e0b; padding:8px; border-radius:6px; }
+    .answer-key { margin-top:10px; font-size:0.95rem; }
+    small { color:#6b7280; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>ĐỀ SỐ 1 — Lý luận GDTC (20 câu)</h1>
+    <p><small>Chọn 1 đáp án cho mỗi câu rồi nhấn <strong>Nộp bài</strong>. Kết quả sẽ hiện ngay.</small></p>
+
+    <form id="quizForm">
+      <!-- QUESTIONS -->
+      <!-- For brevity each question has id q1..q20 and radio values A/B/C/D -->
+      <div class="question" id="q1">
+        <div class="q-title">Câu 1: Đại hội Olympic cổ đại đầu tiên được tổ chức vào năm nào trước công nguyên?</div>
+        <label><input type="radio" name="q1" value="A"> A. 775.</label>
+        <label><input type="radio" name="q1" value="B"> B. 776.</label>
+        <label><input type="radio" name="q1" value="C"> C. 777.</label>
+        <label><input type="radio" name="q1" value="D"> D. 778.</label>
+      </div>
+
+      <div class="question" id="q2">
+        <div class="q-title">Câu 2: Chủ tịch Hồ Chí Minh ra lời kêu gọi toàn dân tập thể dục vào thời gian nào?</div>
+        <label><input type="radio" name="q2" value="A"> A. 26/3/1946.</label>
+        <label><input type="radio" name="q2" value="B"> B. 27/3/1946.</label>
+        <label><input type="radio" name="q2" value="C"> C. 26/3/1947.</label>
+        <label><input type="radio" name="q2" value="D"> D. 27/3/1947.</label>
+      </div>
+
+      <div class="question" id="q3">
+        <div class="q-title">Câu 3: Chương trình đào tạo cho sinh viên chính quy của trường đại học Bách Khoa Hà Nội, môn GDTC được quy định bao nhiêu tiết?</div>
+        <label><input type="radio" name="q3" value="A"> A. 90.</label>
+        <label><input type="radio" name="q3" value="B"> B. 120.</label>
+        <label><input type="radio" name="q3" value="C"> C. 150.</label>
+        <label><input type="radio" name="q3" value="D"> D. 180.</label>
+      </div>
+
+      <div class="question" id="q4">
+        <div class="q-title">Câu 4: Đường, đạm, chất béo... khi hoạt động vận động, năng lượng đầu tiên được huy động từ chất nào?</div>
+        <label><input type="radio" name="q4" value="A"> A. Mỡ (Lipit).</label>
+        <label><input type="radio" name="q4" value="B"> B. Đường (Gluxit).</label>
+        <label><input type="radio" name="q4" value="C"> C. Đạm.</label>
+        <label><input type="radio" name="q4" value="D"> D. Muối và nước.</label>
+      </div>
+
+      <div class="question" id="q5">
+        <div class="q-title">Câu 5: Trong các hoạt động kéo dài, khi đường đã cạn, năng lượng chính để duy trì hoạt động được lấy từ chất nào?</div>
+        <label><input type="radio" name="q5" value="A"> A. Mỡ (Lipit).</label>
+        <label><input type="radio" name="q5" value="B"> B. Đường (Gluxit).</label>
+        <label><input type="radio" name="q5" value="C"> C. Đạm.</label>
+        <label><input type="radio" name="q5" value="D"> D. Muối và nước.</label>
+      </div>
+
+      <div class="question" id="q6">
+        <div class="q-title">Câu 6: Máu là một chất lỏng đặc biệt, khối lượng máu toàn phần chiếm bao nhiêu % trọng lượng cơ thể?</div>
+        <label><input type="radio" name="q6" value="A"> A. 5 – 6%.</label>
+        <label><input type="radio" name="q6" value="B"> B. 6 – 7%.</label>
+        <label><input type="radio" name="q6" value="C"> C. 7 – 8%.</label>
+        <label><input type="radio" name="q6" value="D"> D. 8 – 9%.</label>
+      </div>
+
+      <div class="question" id="q7">
+        <div class="q-title">Câu 7: Kỹ năng vận động được hình thành theo 3 giai đoạn... Sau một thời gian lặp lại ... động tác hợp lý nhịp nhàng. Đây là giai đoạn nào?</div>
+        <label><input type="radio" name="q7" value="A"> A. Giai đoạn lan tỏa.</label>
+        <label><input type="radio" name="q7" value="B"> B. Giai đoạn tập trung.</label>
+        <label><input type="radio" name="q7" value="C"> C. Giai đoạn tự động hóa.</label>
+      </div>
+
+      <div class="question" id="q8">
+        <div class="q-title">Câu 8: Sức nhanh là khả năng phản ứng và thực hiện động tác:</div>
+        <label><input type="radio" name="q8" value="A"> A. Với cường độ lớn nhất.</label>
+        <label><input type="radio" name="q8" value="B"> B. Với thời gian lớn nhất.</label>
+        <label><input type="radio" name="q8" value="C"> C. Với biên độ lớn nhất.</label>
+        <label><input type="radio" name="q8" value="D"> D. Với tốc độ cao.</label>
+      </div>
+
+      <div class="question" id="q9">
+        <div class="q-title">Câu 9: Bài tập nào để phát triển sức nhanh?</div>
+        <label><input type="radio" name="q9" value="A"> A. Bơi 400 – 800m.</label>
+        <label><input type="radio" name="q9" value="B"> B. Chạy 800m.</label>
+        <label><input type="radio" name="q9" value="C"> C. Chạy 30m, 60m, 80m, 100m.</label>
+        <label><input type="radio" name="q9" value="D"> D. Chèo thuyền 5000m.</label>
+      </div>
+
+      <div class="question" id="q10">
+        <div class="q-title">Câu 10: Sức mạnh của con người là khả năng khắc phục lực đối kháng ... bằng:</div>
+        <label><input type="radio" name="q10" value="A"> A. Sự nỗ lực ý chí.</label>
+        <label><input type="radio" name="q10" value="B"> B. Sự nỗ lực tối đa của người tập.</label>
+        <label><input type="radio" name="q10" value="C"> C. Sự nỗ lực của cơ bắp.</label>
+      </div>
+
+      <div class="question" id="q11">
+        <div class="q-title">Câu 11: Bài tập nào để phát triển sức mạnh?</div>
+        <label><input type="radio" name="q11" value="A"> A. Bơi 400 – 800m.</label>
+        <label><input type="radio" name="q11" value="B"> B. Nằm sấp chống đẩy, bật cóc 30m.</label>
+        <label><input type="radio" name="q11" value="C"> C. Đua xe đạp đường trường.</label>
+        <label><input type="radio" name="q11" value="D"> D. Chạy 1500m.</label>
+      </div>
+
+      <div class="question" id="q12">
+        <div class="q-title">Câu 12: Nguyên tắc thích hợp và cá biệt hóa nói đến việc tập luyện TDTT phải phù hợp với:</div>
+        <label><input type="radio" name="q12" value="A"> A. Lứa tuổi.</label>
+        <label><input type="radio" name="q12" value="B"> B. Giới tính.</label>
+        <label><input type="radio" name="q12" value="C"> C. Sức khỏe, trình độ thể lực.</label>
+        <label><input type="radio" name="q12" value="D"> D. Cả 3 yếu tố trên.</label>
+      </div>
+
+      <div class="question" id="q13">
+        <div class="q-title">Câu 13: Nguyên tắc tăng tiến nói đến việc tập luyện TDTT phải là quá trình:</div>
+        <label><input type="radio" name="q13" value="A"> A. Tăng nhanh LVĐ.</label>
+        <label><input type="radio" name="q13" value="B"> B. Liên tục tăng LVĐ trong tập luyện.</label>
+        <label><input type="radio" name="q13" value="C"> C. Tăng LVĐ liên tục và từ từ.</label>
+      </div>
+
+      <div class="question" id="q14">
+        <div class="q-title">Câu 14: Hiện tượng choáng trọng lực xảy ra do nguyên nhân nào?</div>
+        <label><input type="radio" name="q14" value="A"> A. VĐV mệt mỏi, tập luyện quá sức.</label>
+        <label><input type="radio" name="q14" value="B"> B. VĐV bị hạ đường huyết đột ngột.</label>
+        <label><input type="radio" name="q14" value="C"> C. VĐV về đích dừng lại đột ngột làm hạn chế lưu thông máu về tim, gây thiếu oxy lên não.</label>
+        <label><input type="radio" name="q14" value="D"> D. Do điều kiện tập luyện nắng, nóng quá gây nên.</label>
+      </div>
+
+      <div class="question" id="q15">
+        <div class="q-title">Câu 15: Để cấp cứu người bị say nắng cần phải làm gì?</div>
+        <label><input type="radio" name="q15" value="A"> A. Đưa người ta vào chỗ thoáng mát, nới lỏng quần áo ra.</label>
+        <label><input type="radio" name="q15" value="B"> B. Dùng khăn ướt lau người và đầu chán.</label>
+        <label><input type="radio" name="q15" value="C"> C. Cho nạn nhân uống nước chè đường hoặc chanh muối.</label>
+        <label><input type="radio" name="q15" value="D"> D. Cả ba đáp án trên.</label>
+      </div>
+
+      <div class="question" id="q16">
+        <div class="q-title">Câu 16: Trong hoạt động TDTT khi bị va chạm mạnh gây bầm dập phần cơ bắp, cần xử lý như thế nào?</div>
+        <label><input type="radio" name="q16" value="A"> A. Dùng ngay thuốc xoa bóp, dầu nóng xoa vào chỗ bầm tím.</label>
+        <label><input type="radio" name="q16" value="B"> B. Dán ngay thuốc salonpas.</label>
+        <label><input type="radio" name="q16" value="C"> C. Chườm lạnh 1 – 2 ngày đầu rồi mới dùng thuốc xoa bóp.</label>
+      </div>
+
+      <div class="question" id="q17">
+        <div class="q-title">Câu 17: Khi cấp cứu người bị suy hô hấp ... cần phải hà hơi thổi ngạt với tần số nào?</div>
+        <label><input type="radio" name="q17" value="A"> A. 10 – 15 lần/phút.</label>
+        <label><input type="radio" name="q17" value="B"> B. 16 – 20 lần/phút.</label>
+        <label><input type="radio" name="q17" value="C"> C. 60 – 70 lần/ phút.</label>
+        <label><input type="radio" name="q17" value="D"> D. 80 – 90 lần/phút.</label>
+      </div>
+
+      <div class="question" id="q18">
+        <div class="q-title">Câu 18: Sử dụng phương pháp nào sau đây để kiểm tra mức độ phát triển thể lực:</div>
+        <label><input type="radio" name="q18" value="A"> A. Phương pháp quan sát.</label>
+        <label><input type="radio" name="q18" value="B"> B. Phương pháp nhân trắc.</label>
+        <label><input type="radio" name="q18" value="C"> C. Cả 2 phương án trên.</label>
+      </div>
+
+      <div class="question" id="q19">
+        <div class="q-title">Câu 19: Công thức tính QVC?</div>
+        <label><input type="radio" name="q19" value="A"> A. QVC= Chiều cao(cm) – (Vòng ngực hít vào + Vòng đùi thuận + Vòng cánh tay co).</label>
+        <label><input type="radio" name="q19" value="B"> B. QVC= h - (P + V).</label>
+        <label><input type="radio" name="q19" value="C"> C. QVC= Chiều cao(cm) + Vòng ngực hít vào + Vòng đùi thuận + Vòng cánh tay co.</label>
+      </div>
+
+      <div class="question" id="q20">
+        <div class="q-title">Câu 20: Phương pháp nào dưới đây của Test Haward thể hiện chức năng tim mạch trung bình</div>
+        <label><input type="radio" name="q20" value="A"> A. H= 56 – 64.</label>
+        <label><input type="radio" name="q20" value="B"> B. H > 99.</label>
+        <label><input type="radio" name="q20" value="C"> C. H= 65 – 79.</label>
+      </div>
+
+      <div class="controls">
+        <button type="button" id="submitBtn">Nộp bài</button>
+        <button type="button" id="resetBtn" class="secondary">Làm lại</button>
+        <div id="status" style="margin-left:12px"></div>
+      </div>
+
+      <div id="resultArea"></div>
+      <div class="answer-key" id="answerKey" style="display:none;">
+        <h3>Đáp án (cho người chấm):</h3>
+        <ol>
+          <li>1: B</li>
+          <li>2: B</li>
+          <li>3: C</li>
+          <li>4: B</li>
+          <li>5: A</li>
+          <li>6: C</li>
+          <li>7: B</li>
+          <li>8: D</li>
+          <li>9: C</li>
+          <li>10: C</li>
+          <li>11: B</li>
+          <li>12: D</li>
+          <li>13: C</li>
+          <li>14: C</li>
+          <li>15: D</li>
+          <li>16: C</li>
+          <li>17: B</li>
+          <li>18: C</li>
+          <li>19: A</li>
+          <li>20: C</li>
+        </ol>
+      </div>
+    </form>
+
+    <p style="margin-top:12px; font-size:0.9rem"><small>Ghi chú: đáp án trên được lấy từ nội dung <strong>ĐỀ SỐ 1</strong> trong tài liệu bạn cung cấp. :contentReference[oaicite:1]{index=1}</small></p>
+  </div>
+
+  <script>
+    // Answer key (match IDs q1..q20)
+    const answers = {
+      q1: "B", q2: "B", q3: "C", q4: "B", q5: "A",
+      q6: "C", q7: "B", q8: "D", q9: "C", q10: "C",
+      q11: "B", q12: "D", q13: "C", q14: "C", q15: "D",
+      q16: "C", q17: "B", q18: "C", q19: "A", q20: "C"
+    };
+
+    function showResults() {
+      const total = Object.keys(answers).length;
+      let score = 0;
+      const resultArea = document.getElementById('resultArea');
+      resultArea.innerHTML = '';
+
+      for (let i = 1; i <= total; i++) {
+        const qid = 'q' + i;
+        const form = document.getElementsByName(qid);
+        let selected = null;
+        for (const el of form) {
+          if (el.checked) selected = el.value;
+        }
+
+        const div = document.createElement('div');
+        div.style.marginTop = '8px';
+
+        if (!selected) {
+          div.innerHTML = `<div class="wrong">Câu ${i}: <strong>Chưa trả lời</strong> — Đáp án đúng: <strong>${answers[qid]}</strong></div>`;
+          resultArea.appendChild(div);
+          continue;
+        }
+
+        if (selected === answers[qid]) {
+          score++;
+          div.innerHTML = `<div class="correct">Câu ${i}: Đúng (Bạn chọn ${selected})</div>`;
+        } else {
+          div.innerHTML = `<div class="wrong">Câu ${i}: Sai (Bạn chọn ${selected}) — Đáp án đúng: <strong>${answers[qid]}</strong></div>`;
+        }
+        resultArea.appendChild(div);
+      }
+
+      const perc = Math.round(score / total * 100);
+      const status = document.getElementById('status');
+      status.innerHTML = `<div class="result">Điểm: ${score}/${total} (${perc}%)</div>`;
+
+      // show full answer key
+      document.getElementById('answerKey').style.display = 'block';
+      // scroll to results
+      resultArea.scrollIntoView({behavior:'smooth', block:'start'});
+    }
+
+    document.getElementById('submitBtn').addEventListener('click', showResults);
+
+    document.getElementById('resetBtn').addEventListener('click', function() {
+      document.getElementById('quizForm').reset();
+      document.getElementById('resultArea').innerHTML = '';
+      document.getElementById('status').innerHTML = '';
+      document.getElementById('answerKey').style.display = 'none';
+    });
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <title>ĐỀ SỐ 2 — Kiểm tra Lý luận GDTC (20 câu)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; padding: 24px; background:#f7f9fc; color:#111; }
+    .card { background: #fff; border-radius: 10px; padding:18px; box-shadow: 0 6px 18px rgba(20,30,50,0.06); max-width:900px; margin: 0 auto; }
+    h1 { margin-top: 0; font-size: 1.4rem; }
+    .question { padding: 12px; border-radius:8px; margin-bottom:10px; border:1px solid #eceff4; }
+    .q-title { font-weight:600; margin-bottom:8px; }
+    label { display:block; margin:4px 0; cursor:pointer; }
+    .controls { display:flex; gap:10px; margin-top:12px; align-items:center; }
+    button { background:#0b79d0; color:#fff; border:none; padding:8px 14px; border-radius:8px; cursor:pointer; }
+    button.secondary { background:#6b7280; }
+    .result { margin-top:14px; font-weight:700; }
+    .correct { background: #e6ffef; border-left: 6px solid #26a87a; padding:8px; border-radius:6px; }
+    .wrong { background: #fff4e6; border-left: 6px solid #f59e0b; padding:8px; border-radius:6px; }
+    .answer-key { margin-top:10px; font-size:0.95rem; }
+    small { color:#6b7280; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>ĐỀ SỐ 2 — Lý luận GDTC (20 câu)</h1>
+    <p><small>Chọn 1 đáp án cho mỗi câu rồi nhấn <strong>Nộp bài</strong>. Kết quả sẽ hiện ngay.</small></p>
+
+    <form id="quizForm">
+      <!-- CÂU HỎI -->
+      <div class="question" id="q1">
+        <div class="q-title">Câu 1: Chủ tịch Hồ Chí Minh ra lời kêu gọi toàn dân tập thể dục vào thời gian nào?</div>
+        <label><input type="radio" name="q1" value="A"> A. 27/3/1946.</label>
+        <label><input type="radio" name="q1" value="B"> B. 27/3/1947.</label>
+        <label><input type="radio" name="q1" value="C"> C. 27/3/1948.</label>
+        <label><input type="radio" name="q1" value="D"> D. 27/3/1949.</label>
+      </div>
+
+      <div class="question" id="q2">
+        <div class="q-title">Câu 2: Bộ máy vận động bao gồm?</div>
+        <label><input type="radio" name="q2" value="A"> A. Xương, cơ quan hô hấp.</label>
+        <label><input type="radio" name="q2" value="B"> B. Xương, hệ tuần hoàn.</label>
+        <label><input type="radio" name="q2" value="C"> C. Xương, cơ, dây chằng.</label>
+        <label><input type="radio" name="q2" value="D"> D. Xương, sự trao đổi chất.</label>
+      </div>
+
+      <div class="question" id="q3">
+        <div class="q-title">Câu 3: Trong nguyên tắc tự giác tích cực, để tạo ra động cơ cho người học, động cơ đó được biểu hiện như thế nào?</div>
+        <label><input type="radio" name="q3" value="A"> A. Sự khát khao vươn tới cái đẹp.</label>
+        <label><input type="radio" name="q3" value="B"> B. Tìm hiểu ý nghĩa chân chính của TDTT.</label>
+        <label><input type="radio" name="q3" value="C"> C. Sự khát khao vươn tới đẳng cấp TDTT.</label>
+        <label><input type="radio" name="q3" value="D"> D. Nhận thức hứng thú về TDTT.</label>
+      </div>
+
+      <div class="question" id="q4">
+        <div class="q-title">Câu 4: Sau khi kiểm tra các chức năng hoạt động của các cơ quan trong cơ thể, chức năng nào quyết định đến khả năng vận động và thích ứng?</div>
+        <label><input type="radio" name="q4" value="A"> A. Hệ tim mạch.</label>
+        <label><input type="radio" name="q4" value="B"> B. Hệ hô hấp.</label>
+        <label><input type="radio" name="q4" value="C"> C. Hệ trao đổi chất.</label>
+        <label><input type="radio" name="q4" value="D"> D. Hệ thần kinh.</label>
+      </div>
+
+      <div class="question" id="q5">
+        <div class="q-title">Câu 5: Điền từ còn khuyết để hoàn thiện khái niệm về giáo dục sức nhanh trong các tố chất thể lực của TDTT.</div>
+        <label><input type="radio" name="q5" value="A"> A. ... tốc độ động tác ...</label>
+        <label><input type="radio" name="q5" value="B"> B. ... phản ứng vận động ...</label>
+        <label><input type="radio" name="q5" value="C"> C. ... sự linh hoạt của cơ bắp ...</label>
+        <label><input type="radio" name="q5" value="D"> D. ... biên độ vận động ...</label>
+      </div>
+
+      <div class="question" id="q6">
+        <div class="q-title">Câu 6: Nhu cầu “nước” của một người trong một ngày khoảng bao nhiêu lít?</div>
+        <label><input type="radio" name="q6" value="A"> A. 1 - 1,5 lít.</label>
+        <label><input type="radio" name="q6" value="B"> B. 1,5 – 2 lít.</label>
+        <label><input type="radio" name="q6" value="C"> C. 2 – 2,5 lít.</label>
+        <label><input type="radio" name="q6" value="D"> D. 2,5 – 3 lít.</label>
+      </div>
+
+      <div class="question" id="q7">
+        <div class="q-title">Câu 7: Để cấp cứu người bị say nắng trong tập luyện TDTT cần phải làm gì?</div>
+        <label><input type="radio" name="q7" value="A"> A.  Đưa người ta vào chỗ thoảng mát, nới lỏng quần áo ra. Dùng khăn ướt lau người và đầu
+chán, chouống dung dịch ozeron. Nếu nặng nữa nhanh chóng đưa đi bệnh viện.</label>
+        <label><input type="radio" name="q7" value="B"> B. Đưa người ta vào chỗ thoáng mát, nới lỏng quần áo ra, dùng khăn ướt lau người và đầu
+chán, nếunặng nữa nhanh chóng đưa đi bệnh viện.</label>
+        <label><input type="radio" name="q7" value="C"> C. Đưa người ta vào chỗ thoáng mát, nới lỏng quần áo ra, cho uống dung dịch ozeron, nếu
+nặng nữa nhanh chóng đưa đi bệnh viện.</label>
+        <label><input type="radio" name="q7" value="D"> D. Đưa người ta vào chỗ thoáng mát, nới lỏng quần áo ra, dùng khăn ướt lau người và đầu
+chán, chouống dung dịch ozeron.</label>
+      </div>
+
+      <div class="question" id="q8">
+        <div class="q-title">Câu 8: Đoàn thể thao Việt Nam lần đầu tiên tham gia đấu trường Olympic vào năm nào?</div>
+        <label><input type="radio" name="q8" value="A"> A. Olympic 1972 tại Munich (Đức).</label>
+        <label><input type="radio" name="q8" value="B"> B. Olympic 1976 tại Montreal (Canada).</label>
+        <label><input type="radio" name="q8" value="C"> C. Olympic 1980 tại Mát–xcơ–va (Nga).</label>
+        <label><input type="radio" name="q8" value="D"> D. Olympic 1984 tại Los Angeles (Mỹ).</label>
+      </div>
+
+      <div class="question" id="q9">
+        <div class="q-title">Câu 9: Triệu chứng: đau ở vùng khớp bị thương, sưng tấy đỏ, giảm khả năng hoạt động — là chấn thương nào?</div>
+        <label><input type="radio" name="q9" value="A"> A. Chạm thương.</label>
+        <label><input type="radio" name="q9" value="B"> B. Biến dạng bao khớp.</label>
+        <label><input type="radio" name="q9" value="C"> C. Sai khớp.</label>
+        <label><input type="radio" name="q9" value="D"> D. Bong gân.</label>
+      </div>
+
+      <div class="question" id="q10">
+        <div class="q-title">Câu 10: Nguyên tắc tăng dần yêu cầu nói đến việc tập luyện TDTT phải là quá trình?</div>
+        <label><input type="radio" name="q10" value="A"> A. Tăng nhanh LVĐ.</label>
+        <label><input type="radio" name="q10" value="B"> B. Liên tục tăng LVĐ trong tập luyện.</label>
+        <label><input type="radio" name="q10" value="C"> C. Tăng LVĐ liên tục và từ từ.</label>
+        <label><input type="radio" name="q10" value="D"> D. Tăng thời gian thực hiện bài tập.</label>
+      </div>
+
+      <div class="question" id="q11">
+        <div class="q-title">Câu 11: Chỉ số vòng cao QVC được nghiên cứu trên đối tượng nào?</div>
+        <label><input type="radio" name="q11" value="A"> A. Tuổi từ 18 – 25.</label>
+        <label><input type="radio" name="q11" value="B"> B. Tuổi từ 30 – 35.</label>
+        <label><input type="radio" name="q11" value="C"> C. Tuổi từ 40 – 45.</label>
+        <label><input type="radio" name="q11" value="D"> D. Tuổi từ 50 – 60.</label>
+      </div>
+
+      <div class="question" id="q12">
+        <div class="q-title">Câu 12: Bài tập nào là bài tập phát triển sức bền yếm khí?</div>
+        <label><input type="radio" name="q12" value="A"> A. Bài tập chạy dưới 2 phút.</label>
+        <label><input type="radio" name="q12" value="B"> B. Bài tập chạy dưới 4 phút.</label>
+        <label><input type="radio" name="q12" value="C"> C. Bài tập chạy dưới 6 phút.</label>
+        <label><input type="radio" name="q12" value="D"> D. Bài tập chạy dưới 8 phút.</label>
+      </div>
+
+      <div class="question" id="q13">
+        <div class="q-title">Câu 13: Chỉ số sinh lý đặc trưng cho hoạt động của hệ hô hấp là tần số hô hấp. Khi tập TDTT, tần số này khoảng?</div>
+        <label><input type="radio" name="q13" value="A"> A. 20 – 30 lần/phút.</label>
+        <label><input type="radio" name="q13" value="B"> B. 25 – 35 lần/phút.</label>
+        <label><input type="radio" name="q13" value="C"> C. 30 – 40 lần/phút.</label>
+        <label><input type="radio" name="q13" value="D"> D. 35 – 45 lần/phút.</label>
+      </div>
+
+      <div class="question" id="q14">
+        <div class="q-title">Câu 14: “Đưa VĐV vào chỗ thoáng mát, nới lỏng quần áo, đặt nằm, xoa bóp từ chân lên” là cách xử lý của hiện tượng nào?</div>
+        <label><input type="radio" name="q14" value="A"> A. Hiện tượng cực điểm.</label>
+        <label><input type="radio" name="q14" value="B"> B. Hiện tượng say nắng.</label>
+        <label><input type="radio" name="q14" value="C"> C. Hiện tượng hạ đường huyết.</label>
+        <label><input type="radio" name="q14" value="D"> D. Hiện tượng choáng trọng lực.</label>
+      </div>
+
+      <div class="question" id="q15">
+        <div class="q-title">Câu 15: Trong hoạt động TDTT khi bị va chạm mạnh gây bầm dập phần cơ bắp, cần xử lý thế nào?</div>
+        <label><input type="radio" name="q15" value="A"> A. Dùng dầu nóng xoa ngay chỗ bầm tím.</label>
+        <label><input type="radio" name="q15" value="B"> B. Dán thuốc salonpas.</label>
+        <label><input type="radio" name="q15" value="C"> C. Chườm lạnh 1 – 2 ngày đầu rồi mới xoa bóp.</label>
+        <label><input type="radio" name="q15" value="D"> D. Chườm nóng ngay sau khi bầm tím.</label>
+      </div>
+
+      <div class="question" id="q16">
+        <div class="q-title">Câu 16: Nhiệm vụ của kiểm tra y học TDTT là gì?</div>
+        <label><input type="radio" name="q16" value="A"> A. Chỉ dành cho VĐV trình độ cao.</label>
+        <label><input type="radio" name="q16" value="B"> B. Phát hiện sớm chấn thương và bệnh lý do tập luyện.</label>
+        <label><input type="radio" name="q16" value="C"> C. Đánh giá trình độ huấn luyện viên.</label>
+        <label><input type="radio" name="q16" value="D"> D. Đánh giá sinh viên tập luyện.</label>
+      </div>
+
+      <div class="question" id="q17">
+        <div class="q-title">Câu 17: Khi chảy máu động mạch, tĩnh mạch lớn, máu chảy xối xả, phải dùng ga rô nhưng không quá bao lâu?</div>
+        <label><input type="radio" name="q17" value="A"> A. Không quá 2 tiếng.</label>
+        <label><input type="radio" name="q17" value="B"> B. Không quá 3 tiếng.</label>
+        <label><input type="radio" name="q17" value="C"> C. Không quá 4 tiếng.</label>
+        <label><input type="radio" name="q17" value="D"> D. Không quá 5 tiếng.</label>
+      </div>
+
+      <div class="question" id="q18">
+        <div class="q-title">Câu 18: Triệu chứng: khó thở, đau bụng, chóng mặt, buồn nôn, muốn bỏ cuộc — là hiện tượng gì?</div>
+        <label><input type="radio" name="q18" value="A"> A. Hiện tượng cực điểm.</label>
+        <label><input type="radio" name="q18" value="B"> B. Hiện tượng say nắng.</label>
+        <label><input type="radio" name="q18" value="C"> C. Hiện tượng hạ đường huyết.</label>
+        <label><input type="radio" name="q18" value="D"> D. Hiện tượng choáng trọng lực.</label>
+      </div>
+
+      <div class="question" id="q19">
+        <div class="q-title">Câu 19: Tố chất mềm dẻo là năng lực thực hiện động tác?</div>
+        <label><input type="radio" name="q19" value="A"> A. Lâu nhất.</label>
+        <label><input type="radio" name="q19" value="B"> B. Cường độ lớn.</label>
+        <label><input type="radio" name="q19" value="C"> C. Biên độ lớn nhất.</label>
+        <label><input type="radio" name="q19" value="D"> D. Ngắn nhất.</label>
+      </div>
+
+      <div class="question" id="q20">
+        <div class="q-title">Câu 20: Lượng vận động trong một buổi tập TDTT phụ thuộc vào yếu tố nào?</div>
+        <label><input type="radio" name="q20" value="A"> A. Khối lượng và lặp lại bài tập.</label>
+        <label><input type="radio" name="q20" value="B"> B. Khối lượng và thời gian vận động.</label>
+        <label><input type="radio" name="q20" value="C"> C. Khối lượng và cường độ bài tập.</label>
+        <label><input type="radio" name="q20" value="D"> D. Khối lượng và kỹ năng thực hiện bài tập.</label>
+      </div>
+
+      <div class="controls">
+        <button type="button" id="submitBtn">Nộp bài</button>
+        <button type="button" id="resetBtn" class="secondary">Làm lại</button>
+        <div id="status" style="margin-left:12px"></div>
+      </div>
+
+      <div id="resultArea"></div>
+      <div class="answer-key" id="answerKey" style="display:none;">
+        <h3>Đáp án (cho người chấm):</h3>
+        <ol>
+          <li>1: A</li>
+          <li>2: C</li>
+          <li>3: B</li>
+          <li>4: A</li>
+          <li>5: A</li>
+          <li>6: C</li>
+          <li>7: B</li>
+          <li>8: A</li>
+          <li>9: D</li>
+          <li>10: C</li>
+          <li>11: A</li>
+          <li>12: A</li>
+          <li>13: A</li>
+          <li>14: D</li>
+          <li>15: C</li>
+          <li>16: B</li>
+          <li>17: B</li>
+          <li>18: A</li>
+          <li>19: C</li>
+          <li>20: C</li>
+        </ol>
+      </div>
+    </form>
+
+    <p style="margin-top:12px; font-size:0.9rem"><small>Nguồn: ĐỀ SỐ 2 – Lý luận GDTC trong tài liệu gốc bạn cung cấp.</small></p>
+  </div>
+
+  <script>
+    const answers = {
+      q1:"A", q2:"C", q3:"B", q4:"C", q5:"A",
+      q6:"B", q7:"A", q8:"C", q9:"D", q10:"C",
+      q11:"A", q12:"A", q13:"C", q14:"D", q15:"C",
+      q16:"B", q17:"A", q18:"A", q19:"C", q20:"C"
+    };
+
+    function showResults(){
+      const total = Object.keys(answers).length;
+      let score = 0;
+      const resultArea = document.getElementById('resultArea');
+      resultArea.innerHTML = '';
+
+      for(let i=1;i<=total;i++){
+        const qid='q'+i;
+        const opts=document.getElementsByName(qid);
+        let selected=null;
+        for(const o of opts) if(o.checked) selected=o.value;
+        const div=document.createElement('div');
+        div.style.marginTop='8px';
+
+        if(!selected){
+          div.innerHTML=`<div class="wrong">Câu ${i}: <strong>Chưa trả lời</strong> — Đáp án đúng: <strong>${answers[qid]}</strong></div>`;
+          resultArea.appendChild(div);
+          continue;
+        }
+        if(selected===answers[qid]){
+          score++;
+          div.innerHTML=`<div class="correct">Câu ${i}: Đúng (Bạn chọn ${selected})</div>`;
+        }else{
+          div.innerHTML=`<div class="wrong">Câu ${i}: Sai (Bạn chọn ${selected}) — Đáp án đúng: <strong>${answers[qid]}</strong></div>`;
+        }
+        resultArea.appendChild(div);
+      }
+
+      const perc=Math.round(score/total*100);
+      document.getElementById('status').innerHTML=`<div class="result">Điểm: ${score}/${total} (${perc}%)</div>`;
+      document.getElementById('answerKey').style.display='block';
+      resultArea.scrollIntoView({behavior:'smooth',block:'start'});
+    }
+
+    document.getElementById('submitBtn').addEventListener('click',showResults);
+    document.getElementById('resetBtn').addEventListener('click',()=>{
+      document.getElementById('quizForm').reset();
+      document.getElementById('resultArea').innerHTML='';
+      document.getElementById('status').innerHTML='';
+      document.getElementById('answerKey').style.display='none';
+    });
+  </script>
+</body>
+</html>
+
